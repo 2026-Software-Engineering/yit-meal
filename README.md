@@ -25,7 +25,7 @@
 ## 🛠️ API Usage (사용법)
 
 ### Endpoint (JSON 주소)
-`https://<조직명>.github.io/yit-meal/meals.json`
+`https://2026-Software-Engineering.github.io/yit-meal/meals.json`
 
 ### Data Structure
 ```json
