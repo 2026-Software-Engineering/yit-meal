@@ -29,13 +29,17 @@
 
 ### Data Structure
 ```json
-{
-  "2026-03-18": {
-    "is_open": true,
-    "breakfast": "조식 메뉴",
-    "lunch": "중식 메뉴",
-    "dinner": "석식 메뉴",
-    "note": "특이사항 (없으면 null)"
+{ "metadata": { "school_name": "연암공과대학교", "version": "1.0", "last_updated": "2026-03-18T23:30:00Z", "notice": "전체 공지용 메시지 칸입니다." },
+  "daily_menus": { 
+    "2026-03-19": { 
+      "is_open": true, 
+      "breakfastA": "참치김치찌개, 흑향미밥, 스팸구이, 쥐어채무침, 도시락김, 깍두기", 
+      "breakfastB": "에그햄치즈토스트, 우리쌀약과, 두유", 
+      "lunchB": "치킨마요덮밥, 콩가루배추국, 고추어묵바*머스타드s, 깍두기", 
+      "lunchC": "가자미튀김/양념장, 잡곡밥, 콩가루배추국, 잡채, 양념깻잎지, 깍두기", 
+      "dinnerA": "나가사끼짬뽕, 쌀밥1/2, 춘권/사모사*칠리소스, 목이버섯냉채, 배추김치", 
+      "note": null 
+    }
   }
 }
 ```
